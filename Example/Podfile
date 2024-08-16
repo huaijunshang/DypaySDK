@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'DypaySDK_Example' do
+  pod 'DypaySDK', :path => '../'
+
+  target 'DypaySDK_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
