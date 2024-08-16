@@ -1,0 +1,22 @@
+{
+  "name": "DypaySDK",
+  "version": "0.1.0",
+  "summary": "A short description of DypaySDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/shanghuaijun/DypaySDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "shanghuaijun": "shanghuaijun@bytedance.com"
+  },
+  "source": {
+    "git": "https://github.com/shanghuaijun/DypaySDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "DypaySDK/Classes/**/*"
+}

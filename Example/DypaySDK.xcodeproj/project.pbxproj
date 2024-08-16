@@ -39,9 +39,9 @@
 /* Begin PBXFileReference section */
 		1B36A4E49C6691D9D90C39B5 /* Pods_DypaySDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DypaySDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BFCA60948B738E299408ABB /* Pods-DypaySDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DypaySDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-DypaySDK_Tests/Pods-DypaySDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		302D49CB74AE4AAF145376C9 /* DypaySDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DypaySDK.podspec; path = ../DypaySDK.podspec; sourceTree = "<group>"; };
-		41477262A3DF697A3BFECEA6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		49697BBDDE115DDDACB733B7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		302D49CB74AE4AAF145376C9 /* DypaySDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DypaySDK.podspec; path = ../DypaySDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		41477262A3DF697A3BFECEA6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		49697BBDDE115DDDACB733B7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* DypaySDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DypaySDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -193,7 +193,6 @@
 				CD6BE0B4C25BBE4A45AB9977 /* Pods-DypaySDK_Tests.debug.xcconfig */,
 				1BFCA60948B738E299408ABB /* Pods-DypaySDK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

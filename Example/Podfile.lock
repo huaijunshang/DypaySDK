@@ -1,0 +1,27 @@
+PODS:
+  - DypaySDK (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - DypaySDK (from `../`)
+  - FBSnapshotTestCase
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  DypaySDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DypaySDK: e651b8cf47fa7bb8d3916a7686cb453ad5492fce
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: 727501439248fff25c941b0ce7a12adbc81863c7
+
+COCOAPODS: 1.12.0
