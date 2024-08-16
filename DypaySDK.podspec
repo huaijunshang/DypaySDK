@@ -18,11 +18,11 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = 'Douyin pay SDK'
-  s.homepage         = 'https://github.com/caijing_ios/DypaySDK'
+  s.homepage         = 'https://github.com/huaijunshang/DypaySDK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'shanghuaijun' => 'shanghuaijun@bytedance.com' }
-  s.source           = { :git => 'https://github.com/caijing_ios/DypaySDK.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/huaijunshang/DypaySDK.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '10.0'
 
